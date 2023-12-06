@@ -1,0 +1,32 @@
+#
+# Author: BadGoblin
+# Date:   6th December 2023
+# Website: www.badgoblin.co.uk
+#
+
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: kcgns
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kcg-deployment
+  namespace: kcgns
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: kcg
+  template:
+    metadata:
+      labels:
+        app: kcg
+    spec:
+      containers:
+      - name: kcg-container
+        image: badgoblin/kcg
+        ports:
+        - containerPort: 80
+  
