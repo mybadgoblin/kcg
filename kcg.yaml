@@ -26,7 +26,7 @@ spec:
     spec:
       containers:
       - name: kcg-container
-        image: badgoblin/kcg:v1
+        image: badgoblin/kcg:v10
         ports:
         - containerPort: 80
   
