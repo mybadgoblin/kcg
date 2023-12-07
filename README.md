@@ -1,7 +1,7 @@
 # K8s Cluster Guard
 
  **K8s Cluster Guard** is an intricate opensource and free Velero Backup management solution.
- Deploying a low footprint Kubernetes deployment/pod and option service.
+ Deploying a low footprint Kubernetes deployment/pod and optional service.
 Two deployment scenarios are available:
 
 - Port forwarder
