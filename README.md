@@ -5,7 +5,7 @@
 Two deployment scenarios are available:
 
 >Port forwarder
-Load balancer
+>Load balancer
 
 
 # Instructions
