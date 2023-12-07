@@ -4,8 +4,8 @@
  Deploying a low footprint Kubernetes deployment/pod and option service.
 Two deployment scenarios are available:
 
--Port forwarder
--Load balancer
+- Port forwarder
+- Load balancer
 
 
 # Instructions
