@@ -7,10 +7,11 @@ Two deployment scenarios are available:
 >Port forwarder
 Load balancer
 
-# Instructions
 
+# Instructions
 Please see the following website for detailed instructions and best practices.
 https://www.badgoblin.co.uk
+
 
 # Files
 Download the following files depending on your requirements.
@@ -21,7 +22,8 @@ https://github.com/mybadgoblin/kcg/blob/main/kcg.yaml
 https://github.com/mybadgoblin/kcg/blob/main/kcg-lb.yaml
 
 
-## Connection options
+
+# Connection options
 As described previously, the following options are available.
 
 ```mermaid
@@ -31,7 +33,8 @@ A[Deployment] -- Cloud service --> C(Load balancer)
 
 ```
 
-## Release history
+
+# Release history
 The following releases have been produced
 
 |          Date      |Version                          |Comments                         |
